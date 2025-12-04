@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head leng="en">
+        <title>Login</title>
+    </head>
+
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color:rgb(80, 150, 200);
+        }
+        .input-box
+        {
+            width: 350px;
+            height: 270px;
+            border-radius: 25px;
+            margin: 10px;
+            padding: 20px;
+            background-color: rgb(12, 30, 50);
+            color: white;
+        }
+
+        input::placeholder
+        {
+            opacity: 0.5;
+        }
+
+        input{
+            width: 300px;
+            margin: 9px;
+            padding: 10px;
+            border-radius: 9px;
+            box-shadow: none;
+        }
+
+        .sinup
+        {
+            margin-left: 55px;
+        }
+
+    </style>
+
+<body>
+    <div class="input-box">
+        <form action="home.html">
+            <label for="name">Username</label><br>
+            <input type="text" placeholder="Enter your username" required><br>
+            <label for="pass">Password</label><br>
+            <input type="password" placeholder="Enter your password" required>
+            <br><br>
+            <input type="submit" value="Login">
+            <p class="sinup">Don't have an account? <a href="register.html">Register</a></p>
+        </form>
+    </div>
+
+</body>
+</html>

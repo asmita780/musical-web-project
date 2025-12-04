@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head>
+        <title>MusicLibary</title>
+
+        <style>
+
+            a{text-decoration: none;}
+
+        </style>
+    </head>
+
+<body>
+    <header style="display:flex;">
+
+        <div class="img1">
+            <img width="100" src="https://thumbs.dreamstime.com/b/cartoon-girl-wearing-headphones-enjoying-music-eyes-closed-green-jacket-cartoon-girl-wearing-headphones-enjoying-music-408968230.jpg?w=768" alt="cartoon gir pic with headphones">
+        </div>
+
+        <nav >
+            <h2><i>Welcome to <span style="color: green;">musical</span> world</i></h2>
+            <a href="login.html" style="text-decoration: none; color: rgb(0, 102, 255);">Login</a>
+            <a href="register.html" style="text-decoration: none; color:  rgb(0, 102, 255);">/ Register</a>
+        </nav>
+
+    </header>
+
+    <hr>
+    <main>
+        
+        <div style="display: flex;">
+            <ol><b>MusicLibary</b>
+                <li>Folk music</li>
+                <li>Indian pop</li>
+                <li>Thumri</li>
+                <li>Hori</li>
+                <li>Hindi cinema</li>  
+            </ol>
+
+            <table border="1" style="text-align:center;">
+                <thead>
+                    <tr>
+                        <th>Music</th>
+                        <th>Download musics</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Folk music</td>
+                        <td><a href="folk.mp3" download="folk music">Download</a></td>
+                        <td>50 rupes</td>
+                    </tr>
+
+                    <tr>
+                        <td>Indian Pop</td>
+                        <td><a href="page-shuffle.mp3">Download</a></td>
+                        <td rowspan="4">free</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thumri</td>
+                        <td><a href="#">download</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Hori</td>
+                        <td><a href="#">download</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Hindi Cinema</td>
+                        <td><a href="#">download</a></td>
+                    </tr> 
+
+                </tbody>
+
+            </table>
+
+            <iframe width="350" height="170" 
+            src="https://youtube.com/embed/ljjoYJYouGo?si=8Er9BRf2Wdu_5OYD"
+            frameborder="0"
+            title="indian music video"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; accelerometer; 
+            alowfullscreen">
+            </iframe>
+
+        </div>
+
+        <br>
+        <div>
+
+            <audio controls src="folk.mp3" type="audio/mpeg"></audio>
+
+            <audio controls src="page-shuffle.mp3" type="audio/mpeg"></audio>   
+
+
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,5 @@
+types of css 
+inline -> as attribute
+internal -> inside html file
+external -> in a different css file
+

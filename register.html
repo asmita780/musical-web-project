@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body
+        {
+            background-color: rgb(30, 50, 60);
+            color: white;
+        }
+
+        .per_container
+        {
+            width: 400px;
+            margin: 10px;
+            padding: 20px;
+            color: gray;
+        }
+
+        input
+        {
+            padding: 3px;
+            border-radius: 7px;
+            
+        }
+
+        input::placeholder
+        {
+            opacity: 0.5;
+        }
+        button
+        {
+            width: 55px;
+            height: 20px;
+            border-radius: 6px;
+        }
+
+        .container
+        {
+            display: flex;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+    <div class="container">
+        <form action="">
+            <fieldset class="per_container">
+                <legend>Personal Details</legend>
+
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="name" placeholder="full Name" required>
+
+                <br><br>
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass" name="password" placeholder="password" required>
+
+                <br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+                <br><br>
+                <label for="number">Phone Number</label><br>
+                <input type="number" id="number" name="number" placeholder="phone number" required> 
+                
+                <br><br>
+                <label for="date">DOB</label><br>
+                <input type="date" id="date" name="DOB">
+
+                <br><br>
+                <label for="radio">Female</label>
+                <input type="radio" id="radio" name="gender" value="female">
+                <label for="radio">Male</label>
+                <input type="radio" id="radio" name="gender" value="male">
+                <label for="radio">other</label>
+                <input type="radio" id="radio" name="gender" value="other">
+
+                <br><br>
+                <button type="reset">Reset</button>
+
+            </fieldset>
+        </form>
+        <form action="home.html">
+               <fieldset class="per_container">
+                <legend>Document Details</legend>
+
+                <label for="account">Account Number</label><br>
+                <input type="number" id="account" placeholder="account number" required>
+
+                <br><br>
+                <label for="aaghar">Aghar</label><br>
+                <input type="file">
+
+                <br><br>
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume">
+
+                <br><br>
+                <button type="submit">Submit</button>   
+                <button type="reset">Reset</button>             
+            </fieldset>         
+        </form>
+    </div>
+    
+</body>
+</html>
